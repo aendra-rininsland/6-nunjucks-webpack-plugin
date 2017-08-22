@@ -1,0 +1,19 @@
+{
+  "name": "6-nunjucks-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "working": "webpack-dev-server -w",
+    "broken": "webpack-dev-server -w --env useMemoryFS"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nunjucks": "^3.0.1",
+    "nunjucks-webpack-plugin": "^3.0.0",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
